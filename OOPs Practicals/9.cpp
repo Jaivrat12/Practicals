@@ -6,15 +6,7 @@ class Age {
 
     public:
     int months, years;
-
-    Age() {
-        years = 0, months = 0;
-    }
-
-    Age(int y, int m) {
-        years = y, months = m;
-        validate();
-    }
+    Age(int y, int m) { years = y, months = m; validate(); }
 
     void validate() {
 
@@ -38,12 +30,7 @@ class Person {
     public:
     string name;
     Age age;
-
-    Person(string _name, Age _age) {
-        name = _name;
-        age = _age;
-    }
-
+    Person(string _name, Age _age): name(_name), age(_age) { }
     void print_age() {
         cout << age.years << " years, " << age.months << " months\n";
     }
@@ -54,6 +41,7 @@ int main() {
     Person p("Person1", Age(19, 23));
     cout << "Age of " << p.name << " before increment: ";
     p.print_age();
+    p.age++;
     cout << "Age of " << p.name << " after increment: ";
     p.print_age();
 }

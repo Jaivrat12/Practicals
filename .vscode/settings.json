@@ -3,6 +3,9 @@
         "iostream": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "cmath": "cpp",
+        "fstream": "cpp",
+        "*.tcc": "cpp"
     }
 }

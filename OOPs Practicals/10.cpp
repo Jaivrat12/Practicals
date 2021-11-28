@@ -14,19 +14,13 @@ class String {
         size = 0;
         char *c = s;
         while (*c) { size++; c++; }
-        str = new char[size];
+        str = new char[size + 1];
         strcpy(str, s);
     }
 
     ~String() { delete str; }
-
-    void print() {
-        cout << str << '\n';
-    }
-
-    String operator+(String s) {
-        return strcat(str, s.str);
-    }
+    void print() { cout << str << '\n'; }
+    String operator+(String s) { return strcat(str, s.str); }
 };
 
 int main() {

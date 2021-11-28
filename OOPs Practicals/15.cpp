@@ -1,6 +1,6 @@
 /*
 Write a program to overload two operators > and - as follow:
-Let t1, t2 and t3 be three time object of time class,
+Let t1, t2 and t3 be three time objects of time class,
 if (t1 > t2)
     t3 = t1 - t2;
 else
@@ -29,16 +29,16 @@ class Time {
         cout << hours << ":" << min << ":" << sec << '\n';
     }
 
-    int get_seconds() {
+    int get_full_seconds() {
         return hours * 3600 + min * 60 + sec;
     }
 
     bool operator>(Time t) {
-        return get_seconds() > t.get_seconds();
+        return get_full_seconds() > t.get_full_seconds();
     }
 
     Time operator-(Time t) {
-        return Time(0, 0, get_seconds() - t.get_seconds());
+        return Time(0, 0, get_full_seconds() - t.get_full_seconds());
     }
 };
 

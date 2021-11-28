@@ -44,15 +44,11 @@ int main() {
 
     Fraction f1(1, 2), f2(3, 4), f3;
     f3 = f1 + f2;
-    f1.print(); cout << " + "; f2.print(); cout << " = ";
-    f3.print(); cout << '\n';
+    f1.print(); cout << " + "; f2.print(); cout << " = "; f3.print(); cout << '\n';
     f3 = f1 - f2;
-    f1.print(); cout << " - "; f2.print(); cout << " = ";
-    f3.print(); cout << '\n';
+    f1.print(); cout << " - "; f2.print(); cout << " = "; f3.print(); cout << '\n';
     f3 = f1 * f2;
-    f1.print(); cout << " * "; f2.print(); cout << " = ";
-    f3.print(); cout << '\n';
+    f1.print(); cout << " * "; f2.print(); cout << " = "; f3.print(); cout << '\n';
     f3 = f1 / f2;
-    f1.print(); cout << " / "; f2.print(); cout << " = ";
-    f3.print(); cout << '\n';
+    f1.print(); cout << " / "; f2.print(); cout << " = "; f3.print(); cout << '\n';
 }
