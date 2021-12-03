@@ -83,4 +83,9 @@ int main() {
     ContractEmployee ce("John", "Chen", "Marketing", "Marketing Manager", 24000);
     RegularEmployee re("Nancy", "Austin", "Finance", "Finance Manager", 18000);
     ce.printSalary(); re.printSalary();
+    return 0;
 }
+
+// O/P:
+// Salary of John Chen is: 24000
+// Salary of Nancy Austin is: 18000

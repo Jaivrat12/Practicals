@@ -27,4 +27,10 @@ int main() {
             }
         }
     }
+
+    return 0;
 }
+
+// O/P:
+// Enter a number: 42
+// Prime factors: 2, 3, 7,

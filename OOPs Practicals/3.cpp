@@ -32,4 +32,12 @@ int main() {
 
     cout << "\nGCD: " << gcd(a, b)
          << "\nLCM: " << lcm(a, b);
+
+    return 0;
 }
+
+// Output:
+// Enter both numbers (a, b): 16 92
+
+// GCD: 4
+// LCM: 368

@@ -31,4 +31,14 @@ int main() {
     cout << "\nFirst  largest: " << arr[first]
          << "\nSecond largest: " << arr[second]
          << "\nThird  largest: " << arr[third];
+
+    return 0;
 }
+
+// Output:
+// Enter size of array: 5
+// Enter elements of the array: 13 54 145 4 23
+
+// First  largest: 145
+// Second largest: 54
+// Third  largest: 23

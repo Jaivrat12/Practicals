@@ -30,5 +30,17 @@ class D: public B2, public B1 {
 int main() {
 
     D d;
-    cout << "End of main\n";
+    cout << "\n[Last statement of main]\n\n";
+    return 0;
 }
+
+// O/P:
+// class B2's constructor
+// class B1's constructor
+// class D's constructor
+
+// [Last statement of main]
+
+// class D's destructor
+// class B1's destructor
+// class B2's destructor

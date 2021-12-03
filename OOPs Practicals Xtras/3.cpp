@@ -1,11 +1,16 @@
-/* W.A.P. to print ASCII values and their equivalent characters. ASCII value vary from 0 to 255. */
+/* W.A.P. to print ASCII value of given number. ASCII value vary from 0 to 255. */
 #include <iostream>
 using namespace std;
 
 int main() {
 
-    for (int i = 0; i < 256; i++) {
-        cout << i << " = " << "["  << char(i) << "]";
-        cout << ((i + 1) % 10 == 0 ? '\n' : '\t');
-    }
+    int n;
+    cout << "Enter a number (0-255): ";
+    cin >> n;
+    cout << "ASCII value of " << n << " is: " << char(n);
+    return 0;
 }
+
+// O/P:
+// Enter a number (0-255): 42
+// ASCII value of 42 is: *

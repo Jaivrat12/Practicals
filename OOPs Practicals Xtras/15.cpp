@@ -1,5 +1,6 @@
 /* W.A.P. to illustrate File I/O. */
 #include <iostream>
+#include <cstring>
 #include <exception>
 using namespace std;
 
@@ -8,10 +9,12 @@ class IntException : public exception {
     string failed_str;
     public:
     IntException(string str) { failed_str = str; }
-    const char * what () const throw () {
+    const char* what() const throw () {
 
         string msg = "Unable to convert '" + failed_str + "' to integer";
-        return msg.c_str();
+        char *err_msg = new char[msg.length() + 1];
+        strcpy(err_msg, msg.c_str());
+        return err_msg;
     }
 };
 
@@ -45,7 +48,25 @@ int main() {
         } catch (...) {
             cout << "An unknown error occured...\n";
         }
-        cout << "Want to convert more? (y/n): ";
+        cout << "\nWant to convert more? (y/n): ";
         cin >> ch;
+        cout << '\n';
     }
+    return 0;
 }
+
+// O/P:
+// Enter number: 4224
+// Successfully converted to integer: 4224
+
+// Want to convert more? (y/n): y
+
+// Enter number: 12a
+// Error: Unable to convert '12a' to integer
+
+// Want to convert more? (y/n): y
+
+// Enter number: 123
+// Successfully converted to integer: 123
+
+// Want to convert more? (y/n): n

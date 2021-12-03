@@ -44,4 +44,22 @@ int main() {
     for (int i = 0; i < n; i++) {
         cout << "\nAverage of elements in col " << i + 1 << ": " << col_avg[i];
     }
+
+    return 0;
 }
+
+// Output:
+// Enter number of rows & columns: 3 3
+// Enter row 1: 6 4 7
+// Enter row 2: 8 3 9
+// Enter row 3: 7 9 5
+
+// Average of matrix elements: 6.44444
+
+// Average of elements in row 1: 5.66667
+// Average of elements in row 2: 6.66667
+// Average of elements in row 3: 7
+
+// Average of elements in col 1: 7
+// Average of elements in col 2: 5.33333
+// Average of elements in col 3: 7

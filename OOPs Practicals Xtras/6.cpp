@@ -22,4 +22,11 @@ int main() {
     int divisor = gcd(a, b);
     cout << "Reduced form of " << a << " / " << b << " = "
          << a / divisor << " / " << b / divisor;
+
+    return 0;
 }
+
+// O/P:
+// Enter the numerator: 39
+// Enter the denominator: 45
+// Reduced form of 39 / 45 = 13 / 15

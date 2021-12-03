@@ -49,5 +49,14 @@ int main() {
         cout << "Unable to open file for reading.\n";
         return 1;
     }
+
     return 0;
 }
+
+// O/P:
+// Size of file: 156 bytes
+
+// Contents of file:
+// C++ is a general-purpose programming language.
+// It was created by Bjarne Stroustrup.
+// It is an extension of the C programming language, or C with Classes.

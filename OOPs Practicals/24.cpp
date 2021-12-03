@@ -15,7 +15,6 @@ class Shape {
     protected:
     double base, height;
     public:
-    // void get_data() {}
     virtual void display_area() = 0;
 };
 
@@ -47,4 +46,9 @@ int main() {
     Rectangle rect(9, 4.5);
     tri.display_area();
     rect.display_area();
+    return 0;
 }
+
+// O/P:
+// Area of this triangle is: 10
+// Area of this rectangle is: 40.5

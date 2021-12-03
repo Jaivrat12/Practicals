@@ -22,4 +22,9 @@ int main() {
     object1.message = "object from main-function";
     Object object2 = fun(object1);
     cout << "Object recieved: " << object2.message << '\n';
+    return 0;
 }
+
+// O/P:
+// Object recieved: object from main-function
+// Object recieved: object from an object-returning-function

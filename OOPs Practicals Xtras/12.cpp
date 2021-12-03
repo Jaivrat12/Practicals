@@ -24,4 +24,9 @@ int main() {
             cout << n << ", ";
         }
     }
+    return 0;
 }
+
+// O/P:
+// Enter a range (3-digit numbers, space-separated): 100 999
+// 153, 370, 371, 407,

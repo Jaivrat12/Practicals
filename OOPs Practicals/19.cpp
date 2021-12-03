@@ -63,4 +63,13 @@ int main() {
     cout << "Area of sphere is: "   << sphere.getArea()   << '\n';
     cout << "Volume of cube is: "   << cube.getVolume()   << '\n';
     cout << "Volume of sphere is: " << sphere.getVolume() << '\n';
+    return 0;
 }
+
+// O/P:
+// Area of square is: 16
+// Area of circle is: 50.2655
+// Area of cube is: 96
+// Area of sphere is: 201.062
+// Volume of cube is: 64
+// Volume of sphere is: 268.083

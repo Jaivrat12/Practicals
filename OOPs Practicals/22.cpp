@@ -27,4 +27,9 @@ int main() {
     Derived derived;
     base.display();
     derived.display();
+    return 0;
 }
+
+// O/P:
+// I am in Base
+// I am in Derived

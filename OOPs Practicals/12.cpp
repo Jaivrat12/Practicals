@@ -13,4 +13,9 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
     cout << "Square root of " << n << " is: " << square_root(n);
+    return 0;
 }
+
+// O/P:
+// Enter a number: 169
+// Square root of 169 is: 13

@@ -17,4 +17,10 @@ int main() {
     cout << x << '\n';
     cout << ::x << '\n';
     cout << X::x << '\n';
+    return 0;
 }
+
+// O/P:
+// local variable x
+// global variable x
+// static variable X::x

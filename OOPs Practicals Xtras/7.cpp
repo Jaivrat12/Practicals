@@ -13,4 +13,9 @@ int main() {
         n /= 10;
     }
     cout << "Sum of all digits = " << sum;
+    return 0;
 }
+
+// O/P:
+// Enter a number: 4224
+// Sum of all digits = 12

@@ -25,4 +25,10 @@ int main() {
             cout << n << ", ";
         }
     }
+
+    return 0;
 }
+
+// O/P:
+// Enter a range (space-separated): 4 40
+// Prime numbers: 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,

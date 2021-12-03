@@ -51,4 +51,11 @@ int main() {
     f1.print(); cout << " * "; f2.print(); cout << " = "; f3.print(); cout << '\n';
     f3 = f1 / f2;
     f1.print(); cout << " / "; f2.print(); cout << " = "; f3.print(); cout << '\n';
+    return 0;
 }
+
+// O/P:
+// (1 / 2) + (3 / 4) = (5 / 4)
+// (1 / 2) - (3 / 4) = (-1 / 4)
+// (1 / 2) * (3 / 4) = (3 / 8)
+// (1 / 2) / (3 / 4) = (4 / 6)

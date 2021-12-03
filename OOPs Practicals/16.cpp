@@ -42,4 +42,13 @@ int main() {
     e1.raise_salary(10); e2.raise_salary(10);
     cout << "\nAfter 10% Raise to both:\n";
     print_yearly_salary(e1); print_yearly_salary(e2);
+    return 0;
 }
+
+// O/P:
+// John Doe's yearly salary: 654000
+// Jane Doe's yearly salary: 546000
+
+// After 10% Raise to both:
+// John Doe's yearly salary: 719400
+// Jane Doe's yearly salary: 600600

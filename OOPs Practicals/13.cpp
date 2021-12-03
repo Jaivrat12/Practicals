@@ -18,4 +18,8 @@ int main() {
 
     Circle c(12.34);
     cout << "Area of circle is: " << get_area(c);
+    return 0;
 }
+
+// O/P:
+// Area of circle is: 478.145

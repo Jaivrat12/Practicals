@@ -24,4 +24,26 @@ int main() {
     for (int i = 1; i <= 10000; i *= 10) {
         cout << setfill('*') << setw(5) << i << '\n';
     }
+
+    return 0;
 }
+
+// O/P:
+// Octal representation of 15 is: 17
+// Hexadecimal representation of 15 is: f
+
+// Setting precision to 2 on 3.14159: 3.14
+
+// Set width to align numbers to right:
+//     1
+//    10
+//   100
+//  1000
+// 10000
+
+// Filling indents in each line:
+// ****1
+// ***10
+// **100
+// *1000
+// 10000

@@ -31,4 +31,10 @@ int main() {
     cout << "s2 = "; s2.print();
     String s3 = s1 + s2;
     cout << "s3 = s1 + s2 = "; s3.print();
+    return 0;
 }
+
+// O/P:
+// s1 = abc
+// s2 = def
+// s3 = s1 + s2 = abcdef

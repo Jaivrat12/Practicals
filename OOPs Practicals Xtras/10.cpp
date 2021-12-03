@@ -17,4 +17,10 @@ int main() {
     cout << "Before swapping, a = " << a << ", b = " << b;
     swap(&a, &b);
     cout << "\nAfter swapping, a = " << a << ", b = " << b;
+    return 0;
 }
+
+// O/P:
+// Enter two numbers: 24 42
+// Before swapping, a = 24, b = 42
+// After swapping, a = 42, b = 24

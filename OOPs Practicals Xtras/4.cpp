@@ -11,4 +11,9 @@ int main() {
         factorial *= i;
     }
     cout << "Factorial of the given number = " << factorial;
+    return 0;
 }
+
+// O/P:
+// Enter a number: 10
+// Factorial of the given number = 3628800

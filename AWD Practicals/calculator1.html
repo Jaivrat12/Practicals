@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .contain{
+                display: flex;
+            }
+            #display{
+                width: 98%;
+            }
+            .mathButtons{
+                width: 100px;
+                height: 40px;
+                background-color: rgb(0,0,0,0.3);
+                color: white;
+            }
+            .mathButtons:hover{
+                background-color: DodgerBlue;
+            }
+            #clearButton:hover{
+                background-color: orangered;
+            }
+            #container{
+                width: 430px;
+                height: 300px;
+
+            }
+            .buttondigits{
+                background-color:  black;
+                color: white;
+                height: 40px;
+                width: 100px;
+            }
+            #clearButton{
+                width: 100px;
+                height: 40px;
+                background-color: rgb(0,0,0,0.3);
+                font-weight: bold;
+            }
+            .buttondigits:hover {
+                background-color: gray;
+            }
+        </style>
+        <title>Calculator</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <fieldset id="container">
+                <form name="calculator">
+                    <input type="text" id="display" readonly>
+                    <br><br><br>
+                    <div class="contain">
+                        <input class="buttondigits" type="button" value="7" onclick="calculator.display.value += '7'">
+                        <input class="buttondigits" type="button" value="8" onclick="calculator.display.value += '8'">
+                        <input class="buttondigits" type="button" value="9" onclick="calculator.display.value += '9'">
+                        <input class="mathButtons" type="button" value="+" onclick="calculator.display.value += '+'">
+                    </div>
+
+                    <div class="contain">
+                        <input class="buttondigits" type="button" value="4" onclick="calculator.display.value += '4'">
+                        <input class="buttondigits" type="button" value="5" onclick="calculator.display.value += '5'">
+                        <input class="buttondigits" type="button" value="6" onclick="calculator.display.value += '6'">
+                        <input class="mathButtons" type="button" value="-" onclick="calculator.display.value += '-'">
+                    </div>
+
+                    <div class="contain">
+                        <input class="buttondigits" type="button" value="1" onclick="calculator.display.value += '1'">
+                        <input class="buttondigits" type="button" value="2" onclick="calculator.display.value += '2'">
+                        <input class="buttondigits" type="button" value="3" onclick="calculator.display.value += '3'">
+                        <input class="mathButtons" type="button" value="*" onclick="calculator.display.value += '*'">
+                    </div>
+
+                    <div class="contain">
+                        <input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
+                        <input class="buttondigits" type="button" value="0" onclick="calculator.display.value += '0'">
+                        <input class= "mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+                        <input class="mathButtons" type="button" value="/" onclick="calculator.display.value += '/'">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

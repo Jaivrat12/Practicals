@@ -18,4 +18,20 @@ int main() {
     avg /= ctr;
     cout << "\nAverage of given numbers = " << avg;
     cout << "\nProduct of given numbers = " << prod;
+    return 0;
 }
+
+// O/P:
+// Enter a number: 5
+// Do you want to stop? (y/n): n
+// Enter a number: 8
+// Do you want to stop? (y/n): n
+// Enter a number: 9
+// Do you want to stop? (y/n): n
+// Enter a number: 10
+// Do you want to stop? (y/n): n
+// Enter a number: 7
+// Do you want to stop? (y/n): y
+
+// Average of given numbers = 7.8
+// Product of given numbers = 25200

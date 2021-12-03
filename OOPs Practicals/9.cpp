@@ -44,4 +44,9 @@ int main() {
     p.age++;
     cout << "Age of " << p.name << " after increment: ";
     p.print_age();
+    return 0;
 }
+
+// O/P:
+// Age of Person1 before increment: 20 years, 11 months
+// Age of Person1 after increment: 21 years, 0 months
