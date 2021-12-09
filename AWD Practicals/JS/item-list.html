@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Item List</title>
+    </head>
+
+    <body>
+
+        <h2>Item List</h2>
+        <input type="text" id="item" >
+        <button onclick="addItem()">Add</button>
+        <ul id="list"></ul>
+
+        <script>
+
+            function addItem() {
+
+                var itemInput = document.getElementById('item');
+                var item = `<li>${ itemInput.value }</li>`;
+                document.getElementById('list').innerHTML += item;
+                itemInput.value = '';
+            }
+
+        </script>
+
+    </body>
+
+</html>

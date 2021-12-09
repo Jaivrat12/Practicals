@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JS for Loop</title>
+    </head>
+
+    <body>
+
+        <input type="number" id="n">
+        <button onclick="printTable()">Print Table</button>
+        <div id="output"></div>
+
+        <script>
+
+            function printTable() {
+
+                var n = document.getElementById('n').value;
+                var output = document.getElementById('output');
+                output.innerHTML = '';
+                for (var i = 1; i <= 10; i++)
+                    output.innerHTML += `${n} x ${i} = ${ n * i }<br>`;
+            }
+
+        </script>
+
+    </body>
+
+</html>

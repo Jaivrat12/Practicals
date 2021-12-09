@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JS If-else Statements</title>
+    </head>
+
+    <body>
+
+        <input type="number" id="input" >
+        <button onclick="checkoddeve()">Check</button>
+        <div id="output"></div>
+
+        <script>
+
+            function checkoddeve() {
+
+                var n = document.getElementById('input').value;
+                var isEven;
+                if (n % 2 == 0)
+                    isEven = true;
+                else
+                    isEven = false;
+                document.getElementById('output').innerHTML = isEven ? 'Even' : 'Odd';
+            }
+
+        </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,41 @@
+{
+    "html": [
+        // "https://www.w3schools.com/html/html_formatting.asp",
+        // "https://www.w3schools.com/html/html_lists.asp",
+        // "https://www.w3schools.com/html/html_tables.asp",
+        // "https://www.w3schools.com/html/html_forms.asp",
+        "url_encode"
+    ],
+    "css": [
+        // "https://www.w3schools.com/css/css_colors.asp",
+        // "https://www.w3schools.com/css/css_border.asp",
+        // "https://www.w3schools.com/css/css3_gradients.asp",
+        // "https://www.w3schools.com/css/css3_buttons.asp",
+        "https://www.w3schools.com/css/css_form.asp",
+        "https://www.w3schools.com/css/css_display_visibility.asp",
+        ""
+    ],
+    "js": [
+        // "https://www.w3schools.com/js/js_output.asp",
+        // "https://www.w3schools.com/js/js_if_else.asp",
+        // "https://www.w3schools.com/js/js_switch.asp",
+        // "https://www.w3schools.com/js/js_loop_for.asp",
+        // "https://www.w3schools.com/js/js_arrays.asp",
+        // "https://www.w3schools.com/js/js_dates.asp",
+        "https://www.w3schools.com/js/js_functions.asp",
+        "",
+        "display sum, avg, prod of 3 I/P nos. in alert"
+    ],
+    "php": [
+        // "https://www.w3schools.com/php/php_echo_print.asp",
+        // "https://www.w3schools.com/php/php_looping.asp",
+        "https://www.w3schools.com/php/php_functions.asp",
+        // "https://www.w3schools.com/php/php_arrays.asp",
+        // "https://www.w3schools.com/php/php_superglobals.asp",
+        // "https://www.w3schools.com/php/php_forms.asp",
+        // "https://www.w3schools.com/php/php_mysql_intro.asp",
+        "https://www.w3schools.com/php/php_regex.asp",
+        "",
+        "find duplicate value in array of values"
+    ]
+}

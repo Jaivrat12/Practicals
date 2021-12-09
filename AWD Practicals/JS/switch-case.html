@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JS Switch-case statement</title>
+    </head>
+
+    <body>
+
+        <input type="text" id="str">
+        <select id="str-case">
+            <option value="uppercase">Uppercase</option>
+            <option value="lowercase">Lowercase</option>
+        </select>
+        <button onclick="convert()">Convert</button>
+        <div id="output"></div>
+
+        <script>
+
+            function convert() {
+
+                var str = document.getElementById('str').value;
+                var strCase = document.getElementById('str-case').value;
+                var output = document.getElementById('output');
+                switch (strCase) {
+
+                    case 'uppercase':
+                        output.innerHTML = str.toUpperCase();
+                        break;
+                    case 'lowercase':
+                        output.innerHTML = str.toLowerCase();
+                        break;
+                }
+            }
+
+        </script>
+
+    </body>
+
+</html>

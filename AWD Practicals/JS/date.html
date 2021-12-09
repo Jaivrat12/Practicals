@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JS Dates</title>
+    </head>
+
+    <body>
+
+        <h2>Current Date/Time:</h2>
+        <span id="y">Year: </span>
+        <span id="mo">, Month: </span>
+        <span id="d">, Date: </span>
+        <span id="h">, Hours: </span>
+        <span id="min">, Minutes: </span>
+        <span id="sec">, Seconds: </span>
+
+        <script>
+
+            var date = new Date();
+            document.getElementById('y').innerHTML += date.getFullYear();
+            document.getElementById('mo').innerHTML += date.getMonth();
+            document.getElementById('d').innerHTML += date.getDate();
+            document.getElementById('h').innerHTML += date.getHours();
+            document.getElementById('min').innerHTML += date.getMinutes();
+            document.getElementById('sec').innerHTML += date.getSeconds();
+
+        </script>
+
+    </body>
+
+</html>
